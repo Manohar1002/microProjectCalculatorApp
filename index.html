@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculator</title>
+   
+  <body>
+    <div class="calculator">
+      <h1>Calc</h1>
+      <div class="screen">
+        <input
+          type="text"
+          placeholder="0"
+          id="display"
+          class="display"
+          readonly
+        />
+      </div>
+      <div class="panel">
+        <div class="row">
+          <button class="numberButton" type="button">7</button>
+          <button class="numberButton" type="button">8</button>
+          <button class="numberButton" type="button">9</button>
+          <button class="functionButton btnDel" type="button">DEL</button>
+        </div>
+        <div class="row">
+          <button class="numberButton" type="button">4</button>
+          <button class="numberButton" type="button">5</button>
+          <button class="numberButton" type="button">6</button>
+          <button class="operationButton" type="button">+</button>
+        </div>
+        <div class="row">
+          <button class="numberButton" type="button">1</button>
+          <button class="numberButton" type="button">2</button>
+          <button class="numberButton" type="button">3</button>
+          <button class="operationButton" type="button">-</button>
+        </div>
+        <div class="row">
+          <button class="btnDot" type="button">.</button>
+          <button class="numberButton" type="button">0</button>
+          <button class="operationButton" type="button">/</button>
+          <button class="operationButton" type="button">*</button>
+        </div>
+        <div class="row">
+          <button class="functionButton btnReset" type="button">RESET</button>
+
+          <button class="functionButton btnAns" type="button">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
