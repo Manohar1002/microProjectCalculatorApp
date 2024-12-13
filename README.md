@@ -1,7 +1,8 @@
 Simple Calculator App
 ------------------------
 Description
-A basic calculator built using HTML, CSS, and JavaScript. This project aims to provide a simple yet functional tool
+
+  A basic calculator built using HTML, CSS, and JavaScript. This project aims to provide a simple yet functional tool
 for basic arithmetic operations such as addition, subtraction, multiplication, and division. 
 It handles input validation to prevent invalid or incorrect operations, ensuring user-friendly behavior.
 
