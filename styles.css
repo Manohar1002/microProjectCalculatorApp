@@ -92,7 +92,7 @@ button:hover {
   color: white;
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   body {
     margin: 1rem;
   }
@@ -109,7 +109,7 @@ button:hover {
     font-size: 1rem;
     padding: 8px;
   }
-}
+} */
 
 @media (max-width: 360px) {
   .calculator {
