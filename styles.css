@@ -110,3 +110,24 @@ button:hover {
     padding: 8px;
   }
 }
+
+@media (max-width: 360px) {
+  .calculator {
+    width: 100%;
+    height: 70%;
+  }
+  .display {
+    font-size: 3.6rem;
+    margin: 0 0 2rem 0;
+  }
+  button {
+    font-size: 1.4rem;
+  }
+  .panel {
+    gap: 15px;
+  }
+
+  .row {
+    gap: 15px;
+  }
+}
